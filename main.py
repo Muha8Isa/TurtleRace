@@ -14,7 +14,6 @@ while True:
 
 turtles = []
 
-name = ""
 for i, j in enumerate(colour):
     new_turtle = Turtle(shape="turtle")
     new_turtle.color(j)
@@ -41,11 +40,5 @@ while on:
             else:
                 result.write(f"You lost, {i.pencolor()} won the race")
                 break
-
-
-# if win:
-#     result.write(f"Congrats the {user_bet} won the race")
-# else:
-#     result.write(f"You lost, {i.pencolor()} won the race")
 
 screen.exitonclick()
